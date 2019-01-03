@@ -63,11 +63,12 @@ ax.text(1650, 1.60, 'MnSnO3'.translate(SUB), fontsize=fonte)
 # ax.text(1270, 4.05, 'Mn'.translate(SUB), fontsize=fonte)
 
 
-ax.set_xlim(0, 1350)
 x = range(0, 1400, 150)
+ax.set_xlim(0, 1350)
 ax.set_xticks(x)
 ax.set_xticklabels([i for i in x])
 ax.set_xlabel('Temperature (°C)')
+
 ax.set_yticks([])
 
 ax.grid(True)
